@@ -104,14 +104,16 @@ a {
 	}
   
 .name,
-
 .main-nav li {
   display: inline-block;
 }
 
 .name {
   width: 240px;
-  
-  
+  margin-right: 50px;
+}
+
+.main-nav li {
+  margin-right: -5px;
 }
 }
