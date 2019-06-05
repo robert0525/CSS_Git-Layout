@@ -12,7 +12,6 @@ body {
 	color: #3a3a3a;
 }
 
-
 p {
 	font-size: .95em;
 	margin-bottom: 1.5em;
@@ -63,9 +62,10 @@ a {
 
 .name a,
 .main-nav a {
-  padding: 10px 15px;
-  display: block;
+	padding: 10px 15px;
+	display: block;
 }
+
 /* ---- Layout Containers ---- */
 
 .container {
@@ -74,7 +74,6 @@ a {
 }
 
 .main-header {
-  text-align: center;
 	padding-top: 1.5em;
 	padding-bottom: 1.5em;
 	background: #3acec2;
@@ -86,6 +85,9 @@ a {
 	padding: 2em 0;
 	background: #d9e4ea;
 }
+
+
+
 
 /* ================================= 
   Media Queries
@@ -102,18 +104,33 @@ a {
 		max-width: 1150px;
 		margin: 0 auto;
 	}
-  
-.name,
-.main-nav li {
+
+	.name,
+	.main-nav,
+	.main-nav li {
+		display: inline-block;
+	}
+
+	.name {
+		width: 240px;
+		margin-right: 50px;
+	}
+
+	.main-nav li {
+		margin-right: 12px;
+	}
+
+.col {
   display: inline-block;
-}
-
-.name {
-  width: 240px;
-  margin-right: 50px;
-}
-
-.main-nav li {
+  width: 50%;
+  margin-right: -4px;
+  vertical-align: top;
+  padding-left: 1em;
+  padding-right: 1em;
+  
   
 }
-}
+
+
+
+
